@@ -33,7 +33,7 @@ public class test {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 1, 2, 3, 4, 5};
-        System.out.println(Arrays.toString(solution(nums, 5))); // Output: 6
+        int[] nums = {2, 2, 2, 2, 2};
+        System.out.println(Arrays.toString(solution(nums, 6))); // Output: 6
     }
 }
