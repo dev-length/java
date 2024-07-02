@@ -35,7 +35,7 @@ public class HashMapExample {
         System.out.println();
 
         //엔트리 Set 컬렉션을 얻고, 반복해서 키와 값을 얻기
-        Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
+        Set<Entry<String, Integer>> entrySet = map.entrySet();
         Iterator<Entry<String, Integer>> entryIterator = entrySet.iterator();
         while (entryIterator.hasNext()) {
             Entry<String, Integer> entry = entryIterator.next();
