@@ -25,6 +25,7 @@ public class combinations {
         int n = 4;
         int k = 2;
         List<List<Integer>> combinations = combine(n, k);
+        System.out.println("ㅁㄴㅁㅇㄻㄴㅇㄹ");
         System.out.println("Combinations of " + n + " taken " + k + " at a time are:");
         for (List<Integer> combination : combinations) {
             System.out.println(combination);
